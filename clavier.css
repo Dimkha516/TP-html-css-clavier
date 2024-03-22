@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button:hover{
+    color: tomato !important;
+    cursor: pointer;
+}
+
+.clavier{
+    position: relative;
+    top: 85px;
+    height: 67vh;
+    margin: 0 auto;
+    width: 81%;
+    border: solid 2px ;
+    background-color: gray;
+    box-shadow: rgb(236, 212, 212);
+    backdrop-filter: blur(3px);
+}
+ 
+.l1{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.l1 button{
+    margin: 2px;
+    font-size: 3rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.l2 button{
+    margin: 5px;
+    width: 5vw;
+    height: 10vh;
+    font-size: 2rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.esp{
+    width: 90%;
+}
+
+.l2{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.supp{
+    background-color: rgb(191, 54, 29) !important;
+    height: 9vh !important;
+    width: 6vw !important;
+}
+
+.l3{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.l3 button{
+    width: 5vw;
+    height: 10vh;
+    margin: 5px;
+    font-size: 1.2rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.l3{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    background-color: rgb(191, 54, 29) !important;
+    width: 7vw !important;
+}
+
+.l4{
+    margin:0;
+    display: flex;
+    justify-content: flex-start;
+}
+.l4 button{
+    width: 5vw;
+    height: 10vh;
+    margin: 5px;
+    font-size: 1.2rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.caps, .return{
+    background-color: rgb(191, 54, 29) !important;
+    width: 10vw !important;
+}
+
+.l5{
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+}
+.l5 button{
+    width: 5vw;
+    height: 10vh;
+    margin: 5px;
+    font-size: 1.2rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.shift{
+    background-color: rgb(191, 54, 29) !important;
+    width: 13vw !important;
+}
+
+.l6{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.l6-1{
+    position: relative;
+    top: -20px;
+    left: -30px;
+}
+.l6-2{
+    position: relative;
+    top: -29px;
+    left: -30px;
+}
+
+
+
+.l6-1 button{
+    margin: 4px;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 12px;
+}
+
+
+.l6-2 button{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 12px;
+}
+
+.l6-3{
+    position: relative;
+    right: -30px;
+}
+
+.l6-3 button{
+    background-color: black;
+    color: white;
+    height: 6vh;
+    width: 5vw;
+    border-radius: 12px;
+}
+
+.esp2{
+    position: relative;
+    top: 15px;
+    left: -80px;
+    width: 30vw !important;
+    border-radius: 12px;
+    background-color: rgb(191, 54, 29) !important;
+}
+
+.command2{
+position: absolute;
+top: 19px;
+right: -20px;
+width: 6vw !important;
+}
+.option2{
+    position: absolute;
+    left: 485px;
+    top: 18px;
+}
+
+.command, .command2{
+    background-color: rgb(191, 54, 29) !important;
+}
+.up{
+    position: absolute;
+    top: -22px;
+    right: -10px;
+    width: 4vw;
+}
+.inf{
+    position: absolute;
+    top: 20px;
+    left: -100px;
+    width: 3vw !important;
+}
+
+.supr{
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    width: 3vw !important;
+}
+.down{
+    position: absolute;
+    top: 20px;
+    right: 8px;
+    width: 3vw !important;
+}
